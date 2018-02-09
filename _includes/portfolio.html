@@ -1,0 +1,52 @@
+<section id="portfolio" class="download bg-primary text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h2 class="section-heading">{{ site.top_picks_title }} <i class="fa fa-hand-o-down text-secondary"></i></h2>
+                <p>{{ site.top_picks_subtext }}</p>
+                <hr>
+                {% if site.data-ad-client %}
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- jekynewage -->
+                <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-client="{{ site.data-ad-client }}"
+                    data-ad-slot="{{ site.data-ad-slot }}"
+                    data-ad-format="auto"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="no-padding" id="portfolio">
+    <div class="container-fluid">
+        <div class="row no-gutter">
+{% for post in site.tags.top-pick limit:6 %}
+    {% if post.url %}
+            <div class="col-lg-4 col-sm-6">
+                <a href="{% if post.outlink %}{{ post.outlink }}{% else if post.url %}{{ post.url | prepend: site.baseurl }}{% else %}{{ "#" }}{% endif %}" 
+                        {% if post.outlink %}target="_blank"{% endif %} class="portfolio-box">
+                    <img src="{{ "/img/top_picks/" | append: post.top-pick-img }}" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption" style="opacity:100; background:transparent">
+                    <div class="portfolio-box-caption"></div>
+                    <div class="img-text-overlay"></div>
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded" style="font-size:24px">
+                                {{ post.title }}
+                            </div>
+                            <div class="project-name" style="font-size:20px">
+                                {{ post.top-pick-subtitle }}
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+{% endif %}
+  {% endfor %}
+        </div>
+    </div>
+</section>

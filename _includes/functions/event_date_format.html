@@ -1,0 +1,13 @@
+{% comment %}
+{% capture dateDiff %}{{ ('now' - include.date).abs.floor / 86400 }}{% endcapture %}
+{% capture tomorrow %}{{ 'now' | date: '%F' }}{% endcapture %}
+{% capture postDate %}{{ include.date | date: '%F' }}{% endcapture %}
+{% if dateDiff == 0 %}
+{{ "Today" }}
+{% else if dateDiff == 1 %}
+{{ "Tomorrow" }}
+{% else %}
+{{ include.date | date: "%a, %b %d, %y" }}
+{% endif %}
+{% endcomment %}
+{{ "This weekend" }}

@@ -1,0 +1,27 @@
+<section class="no-padding" id="insta">
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            <div id="instafeed"></div>
+
+            <script type="text/javascript" src="js/instafeed.min.js"></script>
+            <script type="text/javascript">
+                var feed = new Instafeed({
+            //        get: 'tagged',
+            //        tagName: 'awesome',
+            //        clientId: '{{ site.instagram_client_id }}'
+            get: 'user',
+                userId: '{{ site.instagram_id }}',
+                clientId: '{{ site.instagram_client_id }}',
+                accessToken: '{{ site.instagram_token }}',
+                resolution: 'low_resolution',
+                //template: {% raw %}'<a href="{{link}}"><img src="{{image}}" /></a>'{% endraw %},
+                template: {% raw %}'<div class="col-lg-4 col-sm-6"><a href="{{link}}" class="portfolio-box"><img src="{{image}}" class="img-responsive" alt=""></a></div>'{% endraw %},
+                sortBy: 'most-recent',
+                limit: 6,
+                links: false
+                });
+                feed.run();
+            </script>
+</div>
+</div>
+</section>

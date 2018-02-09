@@ -1,0 +1,70 @@
+# Site settings
+site_name: Stuffd LDN
+title: The Ultimate Guide to London's Hottest Food Events
+email:
+description: A jekyll template for landing pages, portfolio and blogging
+
+landing_caption: There has never been a better time to be a foodie in London
+landing_caption_btn: Feed me more
+
+app_cta_title: Discover what all the buzz is about!
+app_cta_subtext: Our app will be available to download soon! Register now to be the first to get it!
+
+top_picks_title: Our top picks
+top_picks_subtext: Our favourite places you should check out this week
+
+features_title: We've got you covered
+features_subtext: Check out what you can do with this app theme!
+features_feature_1_title: Goodbye FOMO
+features_feature_1_subtext: Never again will you miss out with our definitive list of upcoming events
+features_feature_2_title: Weekly Newsletter
+features_feature_2_subtext: All the London foodie happenings - straight to your inbox
+features_feature_3_title: Promote your event
+features_feature_3_subtext: Let us know about what you're up to & we'll happily get the word out
+features_feature_4_title: We LOVE food
+features_feature_4_subtext: Maybe even more than you 😛
+
+social_banner: Follow us!
+
+aside_title: Never miss another foodie event again!
+aside_btn_text: Sign up for the newsletter
+
+newsletter_title: Sign up today!
+newsletter_text: Give us your best email & we'll give you the best London foodie events, every week!
+
+baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
+url: "/" # the base hostname & protocol for your site
+
+#Google Ad Words Data from scripts code (using Google responsive options) and ad client
+data-ad-slot: 
+data-ad-client: 
+google_ad_client: 
+
+google_analytics: "UA-102231465-1"
+addthis_id: #ra-5644da281510c62f
+disqus_account: 
+
+# Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) see all icon at fontawesome.io
+social:
+  - title: twitter
+    url: https://twitter.com/getstuffdldn
+  - title: instagram
+    url: https://instagram.com/getstuffdldn
+  - title: facebook
+    url: https://facebook.com/getstuffdldn
+  - title: youtube
+    url: https://youtube.com/getstuffdldn
+  #- title: google-plus
+  #  url: https://plus.google.com/+AntoniotrentoIt
+  #- title: github
+  #  url: http://github.com/jekyll
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
+# Build settings
