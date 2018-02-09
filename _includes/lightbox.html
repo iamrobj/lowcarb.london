@@ -6,12 +6,13 @@
     <div class="lightbox-content" style="border-radius: 4px;">
       <span class="lightbox-close-icon lightbox-close">✕</span>
       <div id="mylightbox" class="lightbox-inner">
-        <h1 class="section-heading">{{ site.newsletter_title }}</h1>
-        <h4>{{ site.newsletter_text }}</h4>
-        <form method="POST" action="http://formspree.io/rob+stuffd@iamrobj.com" style="padding-top:8px;">
+        <h1 class="section-heading">{{ site.lightbox_title }}</h1>
+        <h4>{{ site.lightbox_text }}</h4>
+        <form method="POST" action="http://formspree.io/rob+lcl@lowcarbrob.com" style="padding-top:8px;">
           <input type="text" name="_name" placeholder="Your name" class="lightbox-input" />
 <!--          <input type="text" name="_number" placeholder="Contact number" class="lightbox-input" /> -->
           <input type="email" name="_replyto" placeholder="Email address" class="lightbox-input" />
+          <input type="email" name="_replyto" placeholder="@instagram (we'll follow you)" class="lightbox-input" />
           <input type="hidden" name="_useragent" id="UserAgent">
           <input type="submit" value="Submit" class="btn btn-outline btn-xl" >
         </form>

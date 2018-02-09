@@ -1,16 +1,17 @@
 ---
 layout:     post
-title:      "Foodies Fest"
-subtitle:   "Could it BE more yummy?"
+title:      "Lamb Burger Bowl"
+subtitle:   "Who needs a bun these days"
 date:       2017-06-24
-author:     "Team Stuffd"
-header-img: "img/post-bg-01.jpg"
-top-pick-img: "foodies_fest2.jpg" #name of file in img/top_picks/ folder
-top-pick-subtitle: "Could it BE more yummy?"
+author:     "Rob J"
+header-img: "img/lamb-burger.jpg"
+top-pick-img: "lamb-burger.jpg" #name of file in img/top_picks/ folder
+top-pick-subtitle: "Who needs a bun these days"
 categories: food-fest
 tags: [top-pick]
 permalink: /foodies_fest/
 outlink: http://foodiesfestival.com/
+link_enabled: false #turn on to make portfolio images clickable
 #comments: true
 ---
 

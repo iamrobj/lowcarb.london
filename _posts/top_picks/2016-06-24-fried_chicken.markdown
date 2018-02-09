@@ -1,16 +1,16 @@
 ---
 layout:     post
-title:      "VegFestUK London"
-subtitle:   "Could it BE more yummy?"
+title:      "Faux Fried Chicken"
+subtitle:   "You heard that right"
 date:       2017-06-24
-author:     "Team Stuffd"
-header-img: "img/post-bg-01.jpg"
-top-pick-img: "vegfestuk.jpg" #name of file in img/top_picks/ folder
-top-pick-subtitle: "Could it BE more yummy?"
+author:     "Rob J"
+header-img: "img/posts/fried_chicken.jpg"
+top-pick-img: "fried_chicken.jpg" #name of file in img/top_picks/ folder
+top-pick-subtitle: "You heard that right"
 categories: food-fest
 tags: [top-pick]
-permalink: /vegfestuk/
-outlink: https://london.vegfest.co.uk/
+permalink: /kerb/
+outlink: https://www.kerbfood.com/
 #comments: true
 ---
 

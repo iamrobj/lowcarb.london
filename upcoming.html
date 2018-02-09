@@ -26,6 +26,17 @@ comments: false
     </small></h2>
 -->
       {% assign previousDate = site.date %}
+        {% assign psize = site.tags.upcoming | size %}
+        {% if psize == 0 %} 
+                        <div class="portfolio-box-caption"></div>
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded" style="font-size:24px">
+                                    None atm but keep an eye out!.
+                                </div>
+                            </div>
+                        </div>
+        {% endif %}
+
       {% for post in site.tags.upcoming %}
       {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
       {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}

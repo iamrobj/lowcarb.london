@@ -1,16 +1,17 @@
 ---
 layout:     post
-title:      "Meatopia"
-subtitle:   "Could it BE more yummy?"
+title:      "Tumeric Lamb Chops"
+subtitle:   "With caulimash no less"
 date:       2017-06-24
-author:     "Team Stuffd"
-header-img: "img/posts/meatopia.jpg"
-top-pick-img: "meatopia2.jpg" #name of file in img/top_picks/ folder
-top-pick-subtitle: "Could it BE more yummy?"
+author:     "Rob J"
+header-img: "img/lamb-chops.jpg"
+top-pick-img: "lamb-chops.jpg" #name of file in img/top_picks/ folder
+top-pick-subtitle: "With caulimash no less"
 categories: food-fest
 tags: [top-pick]
-permalink: /meatopia/
-outlink: https://www.meatopia.co.uk/
+permalink: /urban-food-fest/
+outlink: http://www.urbanfoodfest.com/
+link_enabled: false #turn on to make portfolio images clickable
 #comments: true
 ---
 

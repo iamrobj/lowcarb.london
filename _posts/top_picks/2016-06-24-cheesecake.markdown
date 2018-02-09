@@ -1,16 +1,17 @@
 ---
 layout:     post
-title:      "Urban Food Fest"
-subtitle:   "Could it BE more yummy?"
+title:      "Cheeky Cheesecake"
+subtitle:   "No sugar • No grains • So tasty"
 date:       2017-06-24
-author:     "Team Stuffd"
-header-img: "img/post-bg-01.jpg"
-top-pick-img: "urban.jpg" #name of file in img/top_picks/ folder
-top-pick-subtitle: "Could it BE more yummy?"
+author:     "Rob J"
+header-img: "img/cheesecake.jpg"
+top-pick-img: "cheesecake.jpg" #name of file in img/top_picks/ folder
+top-pick-subtitle: "No sugar • No grains • So tasty"
 categories: food-fest
 tags: [top-pick]
-permalink: /urban-food-fest/
-outlink: http://www.urbanfoodfest.com/
+permalink: /vegfestuk/
+outlink: https://london.vegfest.co.uk/
+link_enabled: false #turn on to make portfolio images clickable
 #comments: true
 ---
 

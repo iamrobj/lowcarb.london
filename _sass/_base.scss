@@ -394,6 +394,12 @@ section {
             background-color: #bd1d1d;
           }
         }
+        &.social-envelope a {
+          background-color: rgb(29, 197, 155);
+          &:hover {
+            background-color: rgb(19, 163, 127);
+          }
+        }
         &.social-google-plus a {
           background-color: #dd4b39;
           &:hover {

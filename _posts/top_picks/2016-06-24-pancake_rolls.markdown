@@ -1,16 +1,17 @@
 ---
 layout:     post
-title:      "Street Feast"
-subtitle:   "Could it BE more yummy?"
+title:      "Nut butter Banana Pancake Rolls"
+subtitle:   "Now there's a mouthful for you"
 date:       2017-06-24
-author:     "Team Stuffd"
-header-img: "img/post-bg-01.jpg"
-top-pick-img: "street_feast2.jpg" #name of file in img/top_picks/ folder
-top-pick-subtitle: "Could it BE more yummy?"
+author:     "Rob J"
+header-img: "img/posts/pancake_rolls.jpg"
+top-pick-img: "pancake_rolls.jpg" #name of file in img/top_picks/ folder
+top-pick-subtitle: "Now there's a mouthful for you"
 categories: food-fest
 tags: [top-pick]
-permalink: /street_feast/
-outlink: https://www.streetfeast.com/
+permalink: /meatopia/
+outlink: https://www.meatopia.co.uk/
+link_enabled: false #turn on to make portfolio images clickable
 #comments: true
 ---
 
