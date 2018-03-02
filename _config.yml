@@ -7,6 +7,15 @@ description: London's Low carb, paleo friendly, clean eating Supper Club
 landing_caption: Being a health foodie in London just got better
 landing_caption_btn: Tell me more
 
+about_title: Our Supper Club = Real Food
+about_text: We all love eating out, but when you're health concious eating out in London isn't so easy.  I've literally blown waiters minds with my substitutions.. "Yes, I want the burger - but without the bun".  And who's ever left a restaurant feeling lighter & more energetic than when they went in?? (I blame the vegetable oils personally)  That's why we started the Real Food supper club.
+#<br><br>Nothing is from a packet, there's no sugar, no gluten*, no soy*, no vegtable oils are used, no grains & minimal carbs.  I know, I know, that's a whole lot of "no"s.  On the other hand we serve delicious, home cooked style food.  Minimal ingredients, organic** meat, sugar free desserts, all freshly made with a ton of veggies.  Oh & we give you the recipe of your favourite dish of the night - so you can make it at home.. Now what other "restaurant" does that? :P
+
+#It's that simple.  Nothing is from a packet, there's no sugar, no gluten*, no soy*, no vegtable oils are used, no grains & minimal carbs.  I know, I know, that's a whole lot of "no"s.  On the other hand we serve delicious, home cooked style food.  Minimal ingredients, organic** meat, sugar free desserts, all freshly made with a ton of veggies.  Oh & we give you the recipe of your favourite dish of the night - so you can make it at home.. Now what other "restaurant" does that? :P
+#Most supper clubs have an extravagant menu, they have unique dishes that take time & preparation, they have fancy names with fancy ingredients - and they're awesome.  This is not that.  Our supper clubs have simple dishes with minimal ingredients that you could make at home in not a lot of time.  So why are you spending your hard earned money?
+
+#real food, low carbs, not processed, no grains, no sugar, gluten free, organic meat, soy free, vegetable oil free
+
 app_cta_title: Discover what all the buzz is about!
 app_cta_subtext: Our app will be available to download soon! Register now to be the first to get it!
 
@@ -16,21 +25,24 @@ top_picks_subtext: A few of our favourites you might find on the menu
 features_title: What you can expect from our Supper Club
 features_subtext: 
 features_feature_1_title: Free from
-features_feature_1_subtext: Almost everything we serve is dairy free, egg free and always refinded sugar, gluten & soy free - any questions, just ask!
+features_feature_1_subtext: Everything is refined sugar, grain*, gluten* & soy* free - with many dishes also dairy & egg free.. Questions?  Just ask!
 features_feature_2_title: No vegetable oils
 features_feature_2_subtext: We use coconut or avocado oil to cook with - no nasty surprises here!
 features_feature_3_title: Guilt-free
 features_feature_3_subtext: That heavy feeling you get in your stomach after leaving a restaurant?  Yeah, you don't get that here 🕺
-features_feature_4_title: We LOVE food
-features_feature_4_subtext: Maybe even more than you 😛
+features_feature_4_title: Real Food
+features_feature_4_subtext: Organic meats, minmial ingredients, low carb, tons of veggies.. 😋
 
 social_banner: Stay in touch
 
 aside_title: Don't miss the chance to attend
-aside_btn_text: Register your interest today!
+aside_btn_text: Register Today
 
-lightbox_title: Sign up today!
-lightbox_text: Give us your best email & we'll keep you posted on the next event is!
+cta_title: Discover Real Food
+cta_text: Register now to be the first to hear about our next supper club!
+
+lightbox_title: Register today!
+lightbox_text: Give us your best email & we'll keep you posted about upcoming events!
 
 baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
 url: "/" # the base hostname & protocol for your site
